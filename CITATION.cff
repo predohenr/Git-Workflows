@@ -1,0 +1,69 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'Git Workflows: A Survey on the State of the Practice.'
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: dataset
+authors:
+  - given-names: Pedro Henrique Lopes
+    family-names: Santos
+    name-particle: dos
+    email: lopes.pedro@aluno.ufca.edu.br
+    affiliation: UFCA
+  - given-names: Paola Rodrigues
+    name-particle: de
+    family-names: Godoy Accioly
+    email: paola.accioly@ufca.edu.br
+    affiliation: UFCA
+repository-code: 'https://github.com/predohenr/Git-Workflows'
+url: 'https://github.com/predohenr/Git-Workflows'
+repository-artifact: 'https://github.com/predohenr/Git-Workflows'
+abstract: >-
+  it is a version control system that provides robustness
+  and flexibility for software development projects that
+  have become quite popular. Several workflows exist to
+  standardize Git collaboration among project contributors.
+  However, there is no consensus on the best way to work
+  with Git. In practice, there are both praise and criticism
+  of branch-based workflows. While some developers see it as
+  a factor that makes collaborative software development
+  more productive, others argue that its use delays code
+  integration, leading to issues in delivery and feedback
+  cycles, negatively impacting development productivity and
+  code quality. Large companies like Google have practically
+  abandoned the use of branches in favor of a workflow known
+  as trunk-based development, where all code is integrated
+  directly into the main branch, which implies that any code
+  integration issue can impact the entire codebase and all
+  developers simultaneously, allowing more frequent
+  deliveries to perhaps mitigate the number of integration
+  issues. Among the analyzed related works, only one
+  directly compares Git workflows based on branches and
+  trunk, and it does so considering a single company case
+  study. It is within this literature gap that this project
+  aims to operate. The goal is to comprehend how developers
+  act using various Git workflows (branch-based or
+  trunk-based) in their daily tasks and evaluate the
+  developers’ perception of the advantages and disadvantages
+  of the metrics of those workflows in terms of their impact
+  on productivity and code quality. Our secondary objective
+  is to investigate whether there is an understanding among
+  developers about which workflows might be more appropriate
+  based on technical or organizational factors in specific
+  development contexts and to accomplish this, a survey
+  containing Git Workflow-related questions will be
+  distributed through email lists and various social
+  networks, including Twitter, LinkedIn and online forums.
+  The coding, discussion, and report-writing process will
+  commence as the initial answers become available,
+  utilizing the card-sorting technique.
+keywords:
+  - Branch
+  - Git
+  - Gitflow
+  - Trunk-based Development
+  - Version Control
+  - Workflows
